@@ -1,4 +1,4 @@
-﻿namespace Tariki.CompanyHouse.Api.Model
+﻿namespace Tariki.CompanyHouse.Api.Request
 {
     public class DocumentRequest
     {

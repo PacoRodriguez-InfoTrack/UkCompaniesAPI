@@ -45,12 +45,10 @@
     <Compile Include="Enum\ApptDatePrefix.cs" />
     <Compile Include="Enum\ChargeSatisfied.cs" />
     <Compile Include="Model\OfficerSearchItem.cs" />
-    <Compile Include="Model\CompanyDocument.cs" />
     <Compile Include="Enum\CompanyIndexStatus.cs" />
     <Compile Include="Model\CoSearchCPLXType.cs" />
     <Compile Include="Enum\DataSet.cs" />
     <Compile Include="Model\DocumentInfo.cs" />
-    <Compile Include="Model\DocumentRequest.cs" />
     <Compile Include="Enum\Media.cs" />
     <Compile Include="Enum\MortgageInd.cs" />
     <Compile Include="Enum\NumAppInd.cs" />
@@ -63,6 +61,8 @@
     <Compile Include="Enum\SearchMatch.cs" />
     <Compile Include="Model\SicCodesType.cs" />
     <Compile Include="Request\DocumentInfoRequest.cs" />
+    <Compile Include="Request\DocumentRequest.cs" />
+    <Compile Include="Response\Document.cs" />
     <Compile Include="Response\NameSearch.cs" />
     <Compile Include="Request\NumberSearchRequest.cs" />
     <Compile Include="Request\NameSearchRequest.cs" />

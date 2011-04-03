@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using NUnit.Framework;
 using Tariki.CompanyHouse.Api.Model;
 using System.Linq;
+using Tariki.CompanyHouse.Api.Response;
 
 namespace Tariki.CompanyHouse.Api.Tests
 {
