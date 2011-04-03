@@ -1,0 +1,29 @@
+<GovTalkMessage xsi:schemaLocation="http://www.govtalk.gov.uk/CM/envelope http://xmlgw.companieshouse.gov.uk/v1-0/schema/Egov_ch-v2-0.xsd" xmlns="http://www.govtalk.gov.uk/CM/envelope" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:gt="http://www.govtalk.gov.uk/schemas/govtalk/core" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+  <EnvelopeVersion>1.0</EnvelopeVersion>
+  <Header>
+    <MessageDetails>
+      <Class>CompanyDetails</Class>
+      <Qualifier>request</Qualifier>
+      <TransactionID>1</TransactionID>
+    </MessageDetails>
+    <SenderDetails>
+      <IDAuthentication>
+        <SenderID>????????????????????????????????</SenderID>
+        <Authentication>
+          <Method>CHMD5</Method>
+          <Value>????????????????????????????????</Value>
+        </Authentication>
+      </IDAuthentication>
+     </SenderDetails>
+  </Header>
+  <GovTalkDetails>
+    <Keys/>
+  </GovTalkDetails>
+  <Body>
+<CompanyDetailsRequest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://xmlgw.companieshouse.gov.uk/v1-0/schema/CompanyDetails.xsd">
+	<CompanyNumber>99999999</CompanyNumber>
+	<CompanyName>TEST COMPANY PLC</CompanyName>
+	 <GiveMortTotals>1</GiveMortTotals>
+</CompanyDetailsRequest>
+</Body>
+</GovTalkMessage>

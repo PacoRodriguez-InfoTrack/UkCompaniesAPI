@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Filing History Reply -->
+<GovTalkMessage xmlns="http://www.govtalk.gov.uk/schemas/govtalk/govtalkheader" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:gt="http://www.govtalk.gov.uk/schemas/govtalk/core" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.govtalk.gov.uk/schemas/govtalk/govtalkheader">
+  <EnvelopeVersion>1.0</EnvelopeVersion>
+  <Header>
+    <MessageDetails>
+      <Class>FilingHistory</Class>
+      <Qualifier>response</Qualifier>
+      <TransactionID>1</TransactionID>
+      <GatewayTimestamp>2002-07-26T13:49:41-00:00</GatewayTimestamp>
+    </MessageDetails>
+    <SenderDetails>
+      <IDAuthentication>
+        <SenderID>chris001</SenderID>
+        <Authentication>
+          <Method></Method>
+          <Value></Value>
+        </Authentication>
+      </IDAuthentication>
+      <EmailAddress></EmailAddress>
+    </SenderDetails>
+  </Header>
+  <GovTalkDetails>
+    <Keys/>
+  </GovTalkDetails>
+  <Body>
+    <FilingHistory xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="xmlgwdev.companieshouse.gov.uk/v1-0/schema/FilingHistory.xsd">
+  <CompanyNumber>03176906</CompanyNumber>
+  <CompanyName>MILLENNIUM STADIUM PLC</CompanyName>
+  <SearchRows>58</SearchRows>
+  <FHistItem>
+    <DocumentDesc>RETURN MADE UP TO 25/03/02; FULL LIST OF MEMBERS;</DocumentDesc><DocumentDesc>REGISTERED OFFICE CHANGED ON 22/04/02</DocumentDesc>
+    <DocumentDate>2002-04-22</DocumentDate>
+    <FormType>363s</FormType>
+    <ImageKey>99999FjTELwjAUhHd/RciuyasaWnhNQaHQVXQOJS8toTYBDWL/vWkXl7v77obD5js/2ce93j6GmsNBcuaCjeTDWPPHvd2XnDV6h5NbslKfnIaqKkEWFYoNkWyf9EqrI0XrSR8ltFcJSqkzFOqUx63GIenLTaHIjpNxZjHekO7msSMU/yLn/PcDj94wPA==</ImageKey>
+  </FHistItem>
+  <FHistItem>
+    <DocumentDesc>FULL ACCOUNTS MADE UP TO 30/04/01</DocumentDesc>
+    <DocumentDate>2001-10-01</DocumentDate>
+    <FormType>AA</FormType>
+    <ImageKey>99999FjTELwjAUhHd/RciuyasaWnhNQaHQVXQOJS8toTYBDWL/vWkXl7v77obD5js/2ce93j6GmsNBcuaCjeTDWPPHvd2XnDV6h5NbslKfnIaqKkEWFYoNkWyf9EqrI0XrSR8ltFcJSqkzFOqUx63GIenLTaHIjpNxZjHekO7msSMU/yLn/PcDj94wPA==</ImageKey>
+  </FHistItem>
+  <FHistItem>
+    <DocumentDesc>DIRECTOR RESIGNED</DocumentDesc>
+    <DocumentDate>2001-08-21</DocumentDate>
+    <FormType>288b</FormType>
+    <ImageKey>99999FjTELwjAUhHd/RciuyasaWnhNQaHQVXQOJS8toTYBDWL/vWkXl7v77obD5js/2ce93j6GmsNBcuaCjeTDWPPHvd2XnDV6h5NbslKfnIaqKkEWFYoNkWyf9EqrI0XrSR8ltFcJSqkzFOqUx63GIenLTaHIjpNxZjHekO7msSMU/yLn/PcDj94wPA==</ImageKey>
+  </FHistItem>
+  <FHistItem>
+    <DocumentDesc>DIRECTOR APPOINTED</DocumentDesc>
+    <DocumentDate>2001-08-21</DocumentDate>
+    <FormType>288a</FormType>
+    <ImageKey>99999FjTELwjAUhHd/RciuyasaWnhNQaHQVXQOJS8toTYBDWL/vWkXl7v77obD5js/2ce93j6GmsNBcuaCjeTDWPPHvd2XnDV6h5NbslKfnIaqKkEWFYoNkWyf9EqrI0XrSR8ltFcJSqkzFOqUx63GIenLTaHIjpNxZjHekO7msSMU/yLn/PcDj94wPA==</ImageKey>
+  </FHistItem>
+  <FHistItem>
+    <DocumentDesc>RETURN MADE UP TO 25/03/01; FULL LIST OF MEMBERS</DocumentDesc>
+    <DocumentDate>2001-04-20</DocumentDate>
+    <FormType>363s</FormType>
+    <ImageKey>99999FjTELwjAUhHd/RciuyasaWnhNQaHQVXQOJS8toTYBDWL/vWkXl7v77obD5js/2ce93j6GmsNBcuaCjeTDWPPHvd2XnDV6h5NbslKfnIaqKkEWFYoNkWyf9EqrI0XrSR8ltFcJSqkzFOqUx63GIenLTaHIjpNxZjHekO7msSMU/yLn/PcDj94wPA==</ImageKey>
+  </FHistItem>
+  <FHistItem>
+    <DocumentDesc>FULL ACCOUNTS MADE UP TO 30/04/00</DocumentDesc>
+    <DocumentDate>2000-11-02</DocumentDate>
+    <FormType>AA</FormType>
+    <ImageKey>99999FjTELwjAUhHd/RciuyasaWnhNQaHQVXQOJS8toTYBDWL/vWkXl7v77obD5js/2ce93j6GmsNBcuaCjeTDWPPHvd2XnDV6h5NbslKfnIaqKkEWFYoNkWyf9EqrI0XrSR8ltFcJSqkzFOqUx63GIenLTaHIjpNxZjHekO7msSMU/yLn/PcDj94wPA==</ImageKey>
+  </FHistItem>
+  <FHistItem>
+    <DocumentDesc>DIRECTOR APPOINTED</DocumentDesc>
+    <DocumentDate>2000-05-09</DocumentDate>
+    <FormType>288a</FormType>
+    <ImageKey>99999FjTELwjAUhHd/RciuyasaWnhNQaHQVXQOJS8toTYBDWL/vWkXl7v77obD5js/2ce93j6GmsNBcuaCjeTDWPPHvd2XnDV6h5NbslKfnIaqKkEWFYoNkWyf9EqrI0XrSR8ltFcJSqkzFOqUx63GIenLTaHIjpNxZjHekO7msSMU/yLn/PcDj94wPA==</ImageKey>
+  </FHistItem>
+  <FHistItem>
+    <DocumentDesc>RETURN MADE UP TO 25/03/00; FULL LIST OF MEMBERS;</DocumentDesc><DocumentDesc>DIRECTOR RESIGNED</DocumentDesc>
+    <DocumentDate>2000-05-09</DocumentDate>
+    <FormType>363s</FormType>
+    <ImageKey>99999FjTELwjAUhHd/RciuyasaWnhNQaHQVXQOJS8toTYBDWL/vWkXl7v77obD5js/2ce93j6GmsNBcuaCjeTDWPPHvd2XnDV6h5NbslKfnIaqKkEWFYoNkWyf9EqrI0XrSR8ltFcJSqkzFOqUx63GIenLTaHIjpNxZjHekO7msSMU/yLn/PcDj94wPA==</ImageKey>
+  </FHistItem>
+  <FHistItem>
+    <DocumentDesc>FULL ACCOUNTS MADE UP TO 30/04/99</DocumentDesc>
+    <DocumentDate>1999-10-07</DocumentDate>
+    <FormType>AA</FormType>
+    <ImageKey>99999FjTELwjAUhHd/RciuyasaWnhNQaHQVXQOJS8toTYBDWL/vWkXl7v77obD5js/2ce93j6GmsNBcuaCjeTDWPPHvd2XnDV6h5NbslKfnIaqKkEWFYoNkWyf9EqrI0XrSR8ltFcJSqkzFOqUx63GIenLTaHIjpNxZjHekO7msSMU/yLn/PcDj94wPA==</ImageKey>
+  </FHistItem>
+  <FHistItem>
+    <DocumentDesc>DIRECTOR APPOINTED</DocumentDesc>
+    <DocumentDate>1999-06-05</DocumentDate>
+    <FormType>288a</FormType>
+    <ImageKey>99999FjTELwjAUhHd/RciuyasaWnhNQaHQVXQOJS8toTYBDWL/vWkXl7v77obD5js/2ce93j6GmsNBcuaCjeTDWPPHvd2XnDV6h5NbslKfnIaqKkEWFYoNkWyf9EqrI0XrSR8ltFcJSqkzFOqUx63GIenLTaHIjpNxZjHekO7msSMU/yLn/PcDj94wPA==</ImageKey>
+  </FHistItem>
+  <FHistItem>
+    <DocumentDesc>DIRECTOR APPOINTED</DocumentDesc>
+    <DocumentDate>1999-06-04</DocumentDate>
+    <FormType>288a</FormType>
+    <ImageKey>99999FjTELwjAUhHd/RciuyasaWnhNQaHQVXQOJS8toTYBDWL/vWkXl7v77obD5js/2ce93j6GmsNBcuaCjeTDWPPHvd2XnDV6h5NbslKfnIaqKkEWFYoNkWyf9EqrI0XrSR8ltFcJSqkzFOqUx63GIenLTaHIjpNxZjHekO7msSMU/yLn/PcDj94wPA==</ImageKey>
+  </FHistItem>
+  <FHistItem>
+    <DocumentDesc>DIRECTOR APPOINTED</DocumentDesc>
+    <DocumentDate>1999-06-04</DocumentDate>
+    <FormType>288a</FormType>
+    <ImageKey>99999FjTELwjAUhHd/RciuyasaWnhNQaHQVXQOJS8toTYBDWL/vWkXl7v77obD5js/2ce93j6GmsNBcuaCjeTDWPPHvd2XnDV6h5NbslKfnIaqKkEWFYoNkWyf9EqrI0XrSR8ltFcJSqkzFOqUx63GIenLTaHIjpNxZjHekO7msSMU/yLn/PcDj94wPA==</ImageKey>
+  </FHistItem>
+  <FHistItem>
+    <DocumentDesc>RETURN MADE UP TO 25/03/99; FULL LIST OF MEMBERS;</DocumentDesc><DocumentDesc>DIRECTOR RESIGNED</DocumentDesc>
+    <DocumentDate>1999-06-04</DocumentDate>
+    <FormType>363s</FormType>
+    <ImageKey>99999FjTELwjAUhHd/RciuyasaWnhNQaHQVXQOJS8toTYBDWL/vWkXl7v77obD5js/2ce93j6GmsNBcuaCjeTDWPPHvd2XnDV6h5NbslKfnIaqKkEWFYoNkWyf9EqrI0XrSR8ltFcJSqkzFOqUx63GIenLTaHIjpNxZjHekO7msSMU/yLn/PcDj94wPA==</ImageKey>
+  </FHistItem>
+  <FHistItem>
+    <DocumentDesc>FULL ACCOUNTS MADE UP TO 30/04/98</DocumentDesc>
+    <DocumentDate>1998-11-27</DocumentDate>
+    <FormType>AA</FormType>
+    <ImageKey>99999FjTELwjAUhHd/RciuyasaWnhNQaHQVXQOJS8toTYBDWL/vWkXl7v77obD5js/2ce93j6GmsNBcuaCjeTDWPPHvd2XnDV6h5NbslKfnIaqKkEWFYoNkWyf9EqrI0XrSR8ltFcJSqkzFOqUx63GIenLTaHIjpNxZjHekO7msSMU/yLn/PcDj94wPA==</ImageKey>
+  </FHistItem>
+  <FHistItem>
+    <DocumentDesc>SECRETARY APPOINTED</DocumentDesc>
+    <DocumentDate>1998-06-29</DocumentDate>
+    <FormType>288a</FormType>
+    <ImageKey>99999FjTELwjAUhHd/RciuyasaWnhNQaHQVXQOJS8toTYBDWL/vWkXl7v77obD5js/2ce93j6GmsNBcuaCjeTDWPPHvd2XnDV6h5NbslKfnIaqKkEWFYoNkWyf9EqrI0XrSR8ltFcJSqkzFOqUx63GIenLTaHIjpNxZjHekO7msSMU/yLn/PcDj94wPA==</ImageKey>
+  </FHistItem>
+  <FHistItem>
+    <DocumentDesc>SECRETARY RESIGNED</DocumentDesc>
+    <DocumentDate>1998-06-12</DocumentDate>
+    <FormType>288b</FormType>
+    <ImageKey>99999FjTELwjAUhHd/RciuyasaWnhNQaHQVXQOJS8toTYBDWL/vWkXl7v77obD5js/2ce93j6GmsNBcuaCjeTDWPPHvd2XnDV6h5NbslKfnIaqKkEWFYoNkWyf9EqrI0XrSR8ltFcJSqkzFOqUx63GIenLTaHIjpNxZjHekO7msSMU/yLn/PcDj94wPA==</ImageKey>
+  </FHistItem>
+  <FHistItem>
+    <DocumentDesc>RETURN MADE UP TO 25/03/98; NO CHANGE OF MEMBERS</DocumentDesc>
+    <DocumentDate>1998-04-07</DocumentDate>
+    <FormType>363s</FormType>
+    <ImageKey>99999FjTELwjAUhHd/RciuyasaWnhNQaHQVXQOJS8toTYBDWL/vWkXl7v77obD5js/2ce93j6GmsNBcuaCjeTDWPPHvd2XnDV6h5NbslKfnIaqKkEWFYoNkWyf9EqrI0XrSR8ltFcJSqkzFOqUx63GIenLTaHIjpNxZjHekO7msSMU/yLn/PcDj94wPA==</ImageKey>
+  </FHistItem>
+  <FHistItem>
+    <DocumentDesc>DIRECTOR APPOINTED</DocumentDesc>
+    <DocumentDate>1998-03-27</DocumentDate>
+    <FormType>288a</FormType>
+    <ImageKey>99999FjTELwjAUhHd/RciuyasaWnhNQaHQVXQOJS8toTYBDWL/vWkXl7v77obD5js/2ce93j6GmsNBcuaCjeTDWPPHvd2XnDV6h5NbslKfnIaqKkEWFYoNkWyf9EqrI0XrSR8ltFcJSqkzFOqUx63GIenLTaHIjpNxZjHekO7msSMU/yLn/PcDj94wPA==</ImageKey>
+  </FHistItem>
+  <FHistItem>
+    <DocumentDesc>DIRECTOR RESIGNED;SECRETARY RESIGNED</DocumentDesc>
+    <DocumentDate>1998-03-24</DocumentDate>
+    <FormType>288b</FormType>
+    <ImageKey>99999FjTELwjAUhHd/RciuyasaWnhNQaHQVXQOJS8toTYBDWL/vWkXl7v77obD5js/2ce93j6GmsNBcuaCjeTDWPPHvd2XnDV6h5NbslKfnIaqKkEWFYoNkWyf9EqrI0XrSR8ltFcJSqkzFOqUx63GIenLTaHIjpNxZjHekO7msSMU/yLn/PcDj94wPA==</ImageKey>
+  </FHistItem>
+  <FHistItem>
+    <DocumentDesc>PARTICULARS OF MORTGAGE/CHARGE</DocumentDesc>
+    <DocumentDate>1998-02-25</DocumentDate>
+    <FormType>395</FormType>
+    <ImageKey>99999FjTELwjAUhHd/RciuyasaWnhNQaHQVXQOJS8toTYBDWL/vWkXl7v77obD5js/2ce93j6GmsNBcuaCjeTDWPPHvd2XnDV6h5NbslKfnIaqKkEWFYoNkWyf9EqrI0XrSR8ltFcJSqkzFOqUx63GIenLTaHIjpNxZjHekO7msSMU/yLn/PcDj94wPA==</ImageKey>
+  </FHistItem>
+  <FHistItem>
+    <DocumentDesc>PARTICULARS OF MORTGAGE/CHARGE</DocumentDesc>
+    <DocumentDate>1998-01-30</DocumentDate>
+    <FormType>395</FormType>
+    <ImageKey>99999FjTELwjAUhHd/RciuyasaWnhNQaHQVXQOJS8toTYBDWL/vWkXl7v77obD5js/2ce93j6GmsNBcuaCjeTDWPPHvd2XnDV6h5NbslKfnIaqKkEWFYoNkWyf9EqrI0XrSR8ltFcJSqkzFOqUx63GIenLTaHIjpNxZjHekO7msSMU/yLn/PcDj94wPA==</ImageKey>
+  </FHistItem>
+  <FHistItem>
+    <DocumentDesc>REGISTERED OFFICE CHANGED ON 19/11/97 FROM:</DocumentDesc><DocumentDesc>CARDIFF ARMS PARK</DocumentDesc><DocumentDesc>WESTGATE STREET (PO BOX 22)     </DocumentDesc><DocumentDesc>CARDIFF</DocumentDesc><DocumentDesc>CF1 1JL</DocumentDesc>
+    <DocumentDate>1997-11-19</DocumentDate>
+    <FormType>287</FormType>
+    <ImageKey>99999FjTELwjAUhHd/RciuyasaWnhNQaHQVXQOJS8toTYBDWL/vWkXl7v77obD5js/2ce93j6GmsNBcuaCjeTDWPPHvd2XnDV6h5NbslKfnIaqKkEWFYoNkWyf9EqrI0XrSR8ltFcJSqkzFOqUx63GIenLTaHIjpNxZjHekO7msSMU/yLn/PcDj94wPA==</ImageKey>
+  </FHistItem>
+  <FHistItem>
+    <DocumentDesc>SECRETARY APPOINTED</DocumentDesc>
+    <DocumentDate>1997-10-27</DocumentDate>
+    <FormType>288a</FormType>
+    <ImageKey>99999FjTELwjAUhHd/RciuyasaWnhNQaHQVXQOJS8toTYBDWL/vWkXl7v77obD5js/2ce93j6GmsNBcuaCjeTDWPPHvd2XnDV6h5NbslKfnIaqKkEWFYoNkWyf9EqrI0XrSR8ltFcJSqkzFOqUx63GIenLTaHIjpNxZjHekO7msSMU/yLn/PcDj94wPA==</ImageKey>
+  </FHistItem>
+  <FHistItem>
+    <DocumentDesc>DIRECTOR RESIGNED;SECRETARY RESIGNED</DocumentDesc>
+    <DocumentDate>1997-10-27</DocumentDate>
+    <FormType>288b</FormType>
+    <ImageKey>99999FjTELwjAUhHd/RciuyasaWnhNQaHQVXQOJS8toTYBDWL/vWkXl7v77obD5js/2ce93j6GmsNBcuaCjeTDWPPHvd2XnDV6h5NbslKfnIaqKkEWFYoNkWyf9EqrI0XrSR8ltFcJSqkzFOqUx63GIenLTaHIjpNxZjHekO7msSMU/yLn/PcDj94wPA==</ImageKey>
+  </FHistItem>
+  <FHistItem>
+    <DocumentDesc>FULL ACCOUNTS MADE UP TO 30/04/97</DocumentDesc>
+    <DocumentDate>1997-10-26</DocumentDate>
+    <FormType>AA</FormType>
+    <ImageKey>99999FjTELwjAUhHd/RciuyasaWnhNQaHQVXQOJS8toTYBDWL/vWkXl7v77obD5js/2ce93j6GmsNBcuaCjeTDWPPHvd2XnDV6h5NbslKfnIaqKkEWFYoNkWyf9EqrI0XrSR8ltFcJSqkzFOqUx63GIenLTaHIjpNxZjHekO7msSMU/yLn/PcDj94wPA==</ImageKey>
+  </FHistItem>
+  <FHistItem>
+    <DocumentDesc>PARTICULARS OF MORTGAGE/CHARGE</DocumentDesc>
+    <DocumentDate>1997-09-26</DocumentDate>
+    <FormType>395</FormType>
+    <ImageKey>99999FjTELwjAUhHd/RciuyasaWnhNQaHQVXQOJS8toTYBDWL/vWkXl7v77obD5js/2ce93j6GmsNBcuaCjeTDWPPHvd2XnDV6h5NbslKfnIaqKkEWFYoNkWyf9EqrI0XrSR8ltFcJSqkzFOqUx63GIenLTaHIjpNxZjHekO7msSMU/yLn/PcDj94wPA==</ImageKey>
+  </FHistItem>
+  <FHistItem>
+    <DocumentDesc>RETURN MADE UP TO 25/03/97; FULL LIST OF MEMBERS</DocumentDesc>
+    <DocumentDate>1997-05-14</DocumentDate>
+    <FormType>363a</FormType>
+    <ImageKey>99999FjTELwjAUhHd/RciuyasaWnhNQaHQVXQOJS8toTYBDWL/vWkXl7v77obD5js/2ce93j6GmsNBcuaCjeTDWPPHvd2XnDV6h5NbslKfnIaqKkEWFYoNkWyf9EqrI0XrSR8ltFcJSqkzFOqUx63GIenLTaHIjpNxZjHekO7msSMU/yLn/PcDj94wPA==</ImageKey>
+  </FHistItem>
+  <FHistItem>
+    <DocumentDesc>DIRECTOR'S PARTICULARS CHANGED;SECRETARY'S PARTICULARS CHANGED</DocumentDesc>
+    <DocumentDate>1997-05-14</DocumentDate>
+    <FormType>288c</FormType>
+    <ImageKey>99999FjTELwjAUhHd/RciuyasaWnhNQaHQVXQOJS8toTYBDWL/vWkXl7v77obD5js/2ce93j6GmsNBcuaCjeTDWPPHvd2XnDV6h5NbslKfnIaqKkEWFYoNkWyf9EqrI0XrSR8ltFcJSqkzFOqUx63GIenLTaHIjpNxZjHekO7msSMU/yLn/PcDj94wPA==</ImageKey>
+  </FHistItem>
+  <FHistItem>
+    <DocumentDesc>DIRECTOR APPOINTED</DocumentDesc>
+    <DocumentDate>1997-05-09</DocumentDate>
+    <FormType>288a</FormType>
+    <ImageKey>99999FjTELwjAUhHd/RciuyasaWnhNQaHQVXQOJS8toTYBDWL/vWkXl7v77obD5js/2ce93j6GmsNBcuaCjeTDWPPHvd2XnDV6h5NbslKfnIaqKkEWFYoNkWyf9EqrI0XrSR8ltFcJSqkzFOqUx63GIenLTaHIjpNxZjHekO7msSMU/yLn/PcDj94wPA==</ImageKey>
+  </FHistItem>
+  <FHistItem>
+    <DocumentDesc>PARTICULARS OF MORTGAGE/CHARGE</DocumentDesc>
+    <DocumentDate>1997-04-23</DocumentDate>
+    <FormType>395</FormType>
+    <ImageKey>99999FjTELwjAUhHd/RciuyasaWnhNQaHQVXQOJS8toTYBDWL/vWkXl7v77obD5js/2ce93j6GmsNBcuaCjeTDWPPHvd2XnDV6h5NbslKfnIaqKkEWFYoNkWyf9EqrI0XrSR8ltFcJSqkzFOqUx63GIenLTaHIjpNxZjHekO7msSMU/yLn/PcDj94wPA==</ImageKey>
+  </FHistItem>
+  <FHistItem>
+    <DocumentDesc>PARTICULARS OF MORTGAGE/CHARGE</DocumentDesc>
+    <DocumentDate>1997-04-23</DocumentDate>
+    <FormType>395</FormType>
+    <ImageKey>99999FjTELwjAUhHd/RciuyasaWnhNQaHQVXQOJS8toTYBDWL/vWkXl7v77obD5js/2ce93j6GmsNBcuaCjeTDWPPHvd2XnDV6h5NbslKfnIaqKkEWFYoNkWyf9EqrI0XrSR8ltFcJSqkzFOqUx63GIenLTaHIjpNxZjHekO7msSMU/yLn/PcDj94wPA==</ImageKey>
+  </FHistItem>
+  <FHistItem>
+    <DocumentDesc>MEMORANDUM OF ASSOCIATION</DocumentDesc><DocumentDesc>ARTICLES OF ASSOCIATION</DocumentDesc>
+    <DocumentDate>1997-04-23</DocumentDate>
+    <FormType>MEM/ARTS</FormType>
+    <ImageKey>99999FjTELwjAUhHd/RciuyasaWnhNQaHQVXQOJS8toTYBDWL/vWkXl7v77obD5js/2ce93j6GmsNBcuaCjeTDWPPHvd2XnDV6h5NbslKfnIaqKkEWFYoNkWyf9EqrI0XrSR8ltFcJSqkzFOqUx63GIenLTaHIjpNxZjHekO7msSMU/yLn/PcDj94wPA==</ImageKey>
+  </FHistItem>
+  <FHistItem>
+    <DocumentDesc>ALTER MEMORANDUM AND ARTICLES 09/04/97</DocumentDesc>
+    <DocumentDate>1997-04-23</DocumentDate>
+    <FormType>SRES01</FormType>
+    <ImageKey>99999FjTELwjAUhHd/RciuyasaWnhNQaHQVXQOJS8toTYBDWL/vWkXl7v77obD5js/2ce93j6GmsNBcuaCjeTDWPPHvd2XnDV6h5NbslKfnIaqKkEWFYoNkWyf9EqrI0XrSR8ltFcJSqkzFOqUx63GIenLTaHIjpNxZjHekO7msSMU/yLn/PcDj94wPA==</ImageKey>
+  </FHistItem>
+  <FHistItem>
+    <DocumentDesc>PARTICULARS OF MORTGAGE/CHARGE</DocumentDesc>
+    <DocumentDate>1997-04-17</DocumentDate>
+    <FormType>395</FormType>
+    <ImageKey>99999FjTELwjAUhHd/RciuyasaWnhNQaHQVXQOJS8toTYBDWL/vWkXl7v77obD5js/2ce93j6GmsNBcuaCjeTDWPPHvd2XnDV6h5NbslKfnIaqKkEWFYoNkWyf9EqrI0XrSR8ltFcJSqkzFOqUx63GIenLTaHIjpNxZjHekO7msSMU/yLn/PcDj94wPA==</ImageKey>
+  </FHistItem>
+  <FHistItem>
+    <DocumentDesc>PARTICULARS OF MORTGAGE/CHARGE</DocumentDesc>
+    <DocumentDate>1997-04-16</DocumentDate>
+    <FormType>395</FormType>
+    <ImageKey>99999FjTELwjAUhHd/RciuyasaWnhNQaHQVXQOJS8toTYBDWL/vWkXl7v77obD5js/2ce93j6GmsNBcuaCjeTDWPPHvd2XnDV6h5NbslKfnIaqKkEWFYoNkWyf9EqrI0XrSR8ltFcJSqkzFOqUx63GIenLTaHIjpNxZjHekO7msSMU/yLn/PcDj94wPA==</ImageKey>
+  </FHistItem>
+  <FHistItem>
+    <DocumentDesc>REGISTERED OFFICE CHANGED ON 27/03/97 FROM:</DocumentDesc><DocumentDesc>3RD FLOOR ARLBEE HOUSE</DocumentDesc><DocumentDesc>GREYFRIARS ROAD</DocumentDesc><DocumentDesc>CARDIFF</DocumentDesc><DocumentDesc>CF1 4QB</DocumentDesc>
+    <DocumentDate>1997-03-27</DocumentDate>
+    <FormType>287</FormType>
+    <ImageKey>99999FjTELwjAUhHd/RciuyasaWnhNQaHQVXQOJS8toTYBDWL/vWkXl7v77obD5js/2ce93j6GmsNBcuaCjeTDWPPHvd2XnDV6h5NbslKfnIaqKkEWFYoNkWyf9EqrI0XrSR8ltFcJSqkzFOqUx63GIenLTaHIjpNxZjHekO7msSMU/yLn/PcDj94wPA==</ImageKey>
+  </FHistItem>
+  <FHistItem>
+    <DocumentDesc>DIRECTOR APPOINTED</DocumentDesc>
+    <DocumentDate>1997-03-25</DocumentDate>
+    <FormType>288a</FormType>
+    <ImageKey>99999FjTELwjAUhHd/RciuyasaWnhNQaHQVXQOJS8toTYBDWL/vWkXl7v77obD5js/2ce93j6GmsNBcuaCjeTDWPPHvd2XnDV6h5NbslKfnIaqKkEWFYoNkWyf9EqrI0XrSR8ltFcJSqkzFOqUx63GIenLTaHIjpNxZjHekO7msSMU/yLn/PcDj94wPA==</ImageKey>
+  </FHistItem>
+  <FHistItem>
+    <DocumentDesc>DISAPPLICATION OF PRE-EMPTION RIGHTS 13/03/97;</DocumentDesc><DocumentDesc>AUTH. ALLOTMENT OF SHARES AND DEBENTURES 13/03/97 ;</DocumentDesc><DocumentDesc>NC INC ALREADY ADJUSTED 13/03/97;</DocumentDesc><DocumentDesc>ADOPT MEMORANDUM AND ARTICLES 13/03/97</DocumentDesc>
+    <DocumentDate>1997-03-24</DocumentDate>
+    <FormType>SRES01</FormType>
+    <ImageKey>99999FjTELwjAUhHd/RciuyasaWnhNQaHQVXQOJS8toTYBDWL/vWkXl7v77obD5js/2ce93j6GmsNBcuaCjeTDWPPHvd2XnDV6h5NbslKfnIaqKkEWFYoNkWyf9EqrI0XrSR8ltFcJSqkzFOqUx63GIenLTaHIjpNxZjHekO7msSMU/yLn/PcDj94wPA==</ImageKey>
+  </FHistItem>
+  <FHistItem>
+    <DocumentDesc>&#163;   NC        50000/50001</DocumentDesc><DocumentDesc>13/03/97</DocumentDesc>
+    <DocumentDate>1997-03-24</DocumentDate>
+    <FormType>123</FormType>
+    <ImageKey>99999FjTELwjAUhHd/RciuyasaWnhNQaHQVXQOJS8toTYBDWL/vWkXl7v77obD5js/2ce93j6GmsNBcuaCjeTDWPPHvd2XnDV6h5NbslKfnIaqKkEWFYoNkWyf9EqrI0XrSR8ltFcJSqkzFOqUx63GIenLTaHIjpNxZjHekO7msSMU/yLn/PcDj94wPA==</ImageKey>
+  </FHistItem>
+  <FHistItem>
+    <DocumentDesc>ACC. REF. DATE EXTENDED FROM 31/03/97 TO 30/04/97</DocumentDesc>
+    <DocumentDate>1997-03-20</DocumentDate>
+    <FormType>225</FormType>
+    <ImageKey>99999FjTELwjAUhHd/RciuyasaWnhNQaHQVXQOJS8toTYBDWL/vWkXl7v77obD5js/2ce93j6GmsNBcuaCjeTDWPPHvd2XnDV6h5NbslKfnIaqKkEWFYoNkWyf9EqrI0XrSR8ltFcJSqkzFOqUx63GIenLTaHIjpNxZjHekO7msSMU/yLn/PcDj94wPA==</ImageKey>
+  </FHistItem>
+  <FHistItem>
+    <DocumentDesc>DIRECTOR RESIGNED</DocumentDesc>
+    <DocumentDate>1997-03-20</DocumentDate>
+    <FormType>288b</FormType>
+    <ImageKey>99999FjTELwjAUhHd/RciuyasaWnhNQaHQVXQOJS8toTYBDWL/vWkXl7v77obD5js/2ce93j6GmsNBcuaCjeTDWPPHvd2XnDV6h5NbslKfnIaqKkEWFYoNkWyf9EqrI0XrSR8ltFcJSqkzFOqUx63GIenLTaHIjpNxZjHekO7msSMU/yLn/PcDj94wPA==</ImageKey>
+  </FHistItem>
+  <FHistItem>
+    <DocumentDesc>DIRECTOR RESIGNED;SECRETARY RESIGNED</DocumentDesc>
+    <DocumentDate>1997-03-20</DocumentDate>
+    <FormType>288b</FormType>
+    <ImageKey>99999FjTELwjAUhHd/RciuyasaWnhNQaHQVXQOJS8toTYBDWL/vWkXl7v77obD5js/2ce93j6GmsNBcuaCjeTDWPPHvd2XnDV6h5NbslKfnIaqKkEWFYoNkWyf9EqrI0XrSR8ltFcJSqkzFOqUx63GIenLTaHIjpNxZjHekO7msSMU/yLn/PcDj94wPA==</ImageKey>
+  </FHistItem>
+  <FHistItem>
+    <DocumentDesc>DIRECTOR APPOINTED</DocumentDesc>
+    <DocumentDate>1997-03-20</DocumentDate>
+    <FormType>288a</FormType>
+    <ImageKey>99999FjTELwjAUhHd/RciuyasaWnhNQaHQVXQOJS8toTYBDWL/vWkXl7v77obD5js/2ce93j6GmsNBcuaCjeTDWPPHvd2XnDV6h5NbslKfnIaqKkEWFYoNkWyf9EqrI0XrSR8ltFcJSqkzFOqUx63GIenLTaHIjpNxZjHekO7msSMU/yLn/PcDj94wPA==</ImageKey>
+  </FHistItem>
+  <FHistItem>
+    <DocumentDesc>DIRECTOR APPOINTED</DocumentDesc>
+    <DocumentDate>1997-03-20</DocumentDate>
+    <FormType>288a</FormType>
+    <ImageKey>99999FjTELwjAUhHd/RciuyasaWnhNQaHQVXQOJS8toTYBDWL/vWkXl7v77obD5js/2ce93j6GmsNBcuaCjeTDWPPHvd2XnDV6h5NbslKfnIaqKkEWFYoNkWyf9EqrI0XrSR8ltFcJSqkzFOqUx63GIenLTaHIjpNxZjHekO7msSMU/yLn/PcDj94wPA==</ImageKey>
+  </FHistItem>
+  <FHistItem>
+    <DocumentDesc>DIRECTOR APPOINTED</DocumentDesc>
+    <DocumentDate>1997-03-20</DocumentDate>
+    <FormType>288a</FormType>
+    <ImageKey>99999FjTELwjAUhHd/RciuyasaWnhNQaHQVXQOJS8toTYBDWL/vWkXl7v77obD5js/2ce93j6GmsNBcuaCjeTDWPPHvd2XnDV6h5NbslKfnIaqKkEWFYoNkWyf9EqrI0XrSR8ltFcJSqkzFOqUx63GIenLTaHIjpNxZjHekO7msSMU/yLn/PcDj94wPA==</ImageKey>
+  </FHistItem>
+  <FHistItem>
+    <DocumentDesc>DIRECTOR APPOINTED</DocumentDesc>
+    <DocumentDate>1997-03-20</DocumentDate>
+    <FormType>288a</FormType>
+    <ImageKey>99999FjTELwjAUhHd/RciuyasaWnhNQaHQVXQOJS8toTYBDWL/vWkXl7v77obD5js/2ce93j6GmsNBcuaCjeTDWPPHvd2XnDV6h5NbslKfnIaqKkEWFYoNkWyf9EqrI0XrSR8ltFcJSqkzFOqUx63GIenLTaHIjpNxZjHekO7msSMU/yLn/PcDj94wPA==</ImageKey>
+  </FHistItem>
+  <FHistItem>
+    <DocumentDesc>DIRECTOR APPOINTED</DocumentDesc>
+    <DocumentDate>1997-03-20</DocumentDate>
+    <FormType>288a</FormType>
+    <ImageKey>99999FjTELwjAUhHd/RciuyasaWnhNQaHQVXQOJS8toTYBDWL/vWkXl7v77obD5js/2ce93j6GmsNBcuaCjeTDWPPHvd2XnDV6h5NbslKfnIaqKkEWFYoNkWyf9EqrI0XrSR8ltFcJSqkzFOqUx63GIenLTaHIjpNxZjHekO7msSMU/yLn/PcDj94wPA==</ImageKey>
+  </FHistItem>
+  <FHistItem>
+    <DocumentDesc>DIRECTOR APPOINTED</DocumentDesc>
+    <DocumentDate>1997-03-20</DocumentDate>
+    <FormType>288a</FormType>
+    <ImageKey>99999FjTELwjAUhHd/RciuyasaWnhNQaHQVXQOJS8toTYBDWL/vWkXl7v77obD5js/2ce93j6GmsNBcuaCjeTDWPPHvd2XnDV6h5NbslKfnIaqKkEWFYoNkWyf9EqrI0XrSR8ltFcJSqkzFOqUx63GIenLTaHIjpNxZjHekO7msSMU/yLn/PcDj94wPA==</ImageKey>
+  </FHistItem>
+  <FHistItem>
+    <DocumentDesc>DIRECTOR APPOINTED;SECRETARY APPOINTED</DocumentDesc>
+    <DocumentDate>1997-03-20</DocumentDate>
+    <FormType>288a</FormType>
+    <ImageKey>99999FjTELwjAUhHd/RciuyasaWnhNQaHQVXQOJS8toTYBDWL/vWkXl7v77obD5js/2ce93j6GmsNBcuaCjeTDWPPHvd2XnDV6h5NbslKfnIaqKkEWFYoNkWyf9EqrI0XrSR8ltFcJSqkzFOqUx63GIenLTaHIjpNxZjHekO7msSMU/yLn/PcDj94wPA==</ImageKey>
+  </FHistItem>
+  <FHistItem>
+    <DocumentDesc>AUTHORISATION TO COMMENCE BUSINESS AND BORROW</DocumentDesc>
+    <DocumentDate>1997-02-20</DocumentDate>
+    <FormType>CERT8</FormType>
+    <ImageKey>99999FjTELwjAUhHd/RciuyasaWnhNQaHQVXQOJS8toTYBDWL/vWkXl7v77obD5js/2ce93j6GmsNBcuaCjeTDWPPHvd2XnDV6h5NbslKfnIaqKkEWFYoNkWyf9EqrI0XrSR8ltFcJSqkzFOqUx63GIenLTaHIjpNxZjHekO7msSMU/yLn/PcDj94wPA==</ImageKey>
+  </FHistItem>
+  <FHistItem>
+    <DocumentDesc>APPLICATION COMMENCE BUSINESS</DocumentDesc>
+    <DocumentDate>1997-02-20</DocumentDate>
+    <FormType>117</FormType>
+    <ImageKey>99999FjTELwjAUhHd/RciuyasaWnhNQaHQVXQOJS8toTYBDWL/vWkXl7v77obD5js/2ce93j6GmsNBcuaCjeTDWPPHvd2XnDV6h5NbslKfnIaqKkEWFYoNkWyf9EqrI0XrSR8ltFcJSqkzFOqUx63GIenLTaHIjpNxZjHekO7msSMU/yLn/PcDj94wPA==</ImageKey>
+  </FHistItem>
+  <FHistItem>
+    <DocumentDesc>DIRECTOR RESIGNED</DocumentDesc>
+    <DocumentDate>1996-11-20</DocumentDate>
+    <FormType>288b</FormType>
+    <ImageKey>99999FjTELwjAUhHd/RciuyasaWnhNQaHQVXQOJS8toTYBDWL/vWkXl7v77obD5js/2ce93j6GmsNBcuaCjeTDWPPHvd2XnDV6h5NbslKfnIaqKkEWFYoNkWyf9EqrI0XrSR8ltFcJSqkzFOqUx63GIenLTaHIjpNxZjHekO7msSMU/yLn/PcDj94wPA==</ImageKey>
+  </FHistItem>
+  <FHistItem>
+    <DocumentDesc>SECRETARY RESIGNED</DocumentDesc>
+    <DocumentDate>1996-04-02</DocumentDate>
+    <FormType>288</FormType>
+    <ImageKey>99999FjTELwjAUhHd/RciuyasaWnhNQaHQVXQOJS8toTYBDWL/vWkXl7v77obD5js/2ce93j6GmsNBcuaCjeTDWPPHvd2XnDV6h5NbslKfnIaqKkEWFYoNkWyf9EqrI0XrSR8ltFcJSqkzFOqUx63GIenLTaHIjpNxZjHekO7msSMU/yLn/PcDj94wPA==</ImageKey>
+  </FHistItem>
+  <FHistItem>
+    <DocumentDesc>DIRECTOR RESIGNED</DocumentDesc>
+    <DocumentDate>1996-04-02</DocumentDate>
+    <FormType>288</FormType>
+    <ImageKey>99999FjTELwjAUhHd/RciuyasaWnhNQaHQVXQOJS8toTYBDWL/vWkXl7v77obD5js/2ce93j6GmsNBcuaCjeTDWPPHvd2XnDV6h5NbslKfnIaqKkEWFYoNkWyf9EqrI0XrSR8ltFcJSqkzFOqUx63GIenLTaHIjpNxZjHekO7msSMU/yLn/PcDj94wPA==</ImageKey>
+  </FHistItem>
+  <FHistItem>
+    <DocumentDesc>DIRECTOR APPOINTED</DocumentDesc>
+    <DocumentDate>1996-04-02</DocumentDate>
+    <FormType>288</FormType>
+    <ImageKey>99999FjTELwjAUhHd/RciuyasaWnhNQaHQVXQOJS8toTYBDWL/vWkXl7v77obD5js/2ce93j6GmsNBcuaCjeTDWPPHvd2XnDV6h5NbslKfnIaqKkEWFYoNkWyf9EqrI0XrSR8ltFcJSqkzFOqUx63GIenLTaHIjpNxZjHekO7msSMU/yLn/PcDj94wPA==</ImageKey>
+  </FHistItem>
+  <FHistItem>
+    <DocumentDesc>DIRECTOR APPOINTED;SECRETARY APPOINTED</DocumentDesc>
+    <DocumentDate>1996-04-02</DocumentDate>
+    <FormType>288</FormType>
+    <ImageKey>99999FjTELwjAUhHd/RciuyasaWnhNQaHQVXQOJS8toTYBDWL/vWkXl7v77obD5js/2ce93j6GmsNBcuaCjeTDWPPHvd2XnDV6h5NbslKfnIaqKkEWFYoNkWyf9EqrI0XrSR8ltFcJSqkzFOqUx63GIenLTaHIjpNxZjHekO7msSMU/yLn/PcDj94wPA==</ImageKey>
+  </FHistItem>
+  <FHistItem>
+    <DocumentDesc>REGISTERED OFFICE CHANGED ON 02/04/96 FROM:</DocumentDesc><DocumentDesc>129 QUEEN STREET</DocumentDesc><DocumentDesc>CARDIFF</DocumentDesc><DocumentDesc>CF1 4BJ</DocumentDesc>
+    <DocumentDate>1996-04-02</DocumentDate>
+    <FormType>287</FormType>
+    <ImageKey>99999FjTELwjAUhHd/RciuyasaWnhNQaHQVXQOJS8toTYBDWL/vWkXl7v77obD5js/2ce93j6GmsNBcuaCjeTDWPPHvd2XnDV6h5NbslKfnIaqKkEWFYoNkWyf9EqrI0XrSR8ltFcJSqkzFOqUx63GIenLTaHIjpNxZjHekO7msSMU/yLn/PcDj94wPA==</ImageKey>
+  </FHistItem>
+  <FHistItem>
+    <DocumentDesc>INCORPORATION DOCUMENTS</DocumentDesc><DocumentDesc>CERTIFICATE OF INCORPORATION</DocumentDesc><DocumentDesc>STATEMENT OF DIRECTORS &amp; REGISTERED OFFICE</DocumentDesc><DocumentDesc>DECLARATION OF COMPLIANCE</DocumentDesc><DocumentDesc>MEMORANDUM OF ASSOCIATION</DocumentDesc><DocumentDesc>ARTICLES OF ASSOCIATION</DocumentDesc>
+    <DocumentDate>1996-03-25</DocumentDate>
+    <FormType>NEWINC</FormType>
+    <ImageKey>99999FjTELwjAUhHd/RciuyasaWnhNQaHQVXQOJS8toTYBDWL/vWkXl7v77obD5js/2ce93j6GmsNBcuaCjeTDWPPHvd2XnDV6h5NbslKfnIaqKkEWFYoNkWyf9EqrI0XrSR8ltFcJSqkzFOqUx63GIenLTaHIjpNxZjHekO7msSMU/yLn/PcDj94wPA==</ImageKey>
+  </FHistItem>
+</FilingHistory>
+  </Body>
+</GovTalkMessage>

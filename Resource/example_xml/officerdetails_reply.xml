@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<GovTalkMessage xsi:schemaLocation="http://www.govtalk.gov.uk/CM/envelope http://xmlgw.companieshouse.gov.uk/v1-0/schema/Egov_ch-v2-0.xsd" xmlns="http://www.govtalk.gov.uk/CM/envelope" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:gt="http://www.govtalk.gov.uk/schemas/govtalk/core" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+  <EnvelopeVersion>1.0</EnvelopeVersion>
+  <Header>
+    <MessageDetails>
+      <Class>OfficerDetails</Class>
+      <Qualifier>response</Qualifier>
+      <TransactionID>51</TransactionID>
+      <GatewayTimestamp>2009-03-13T14:43:37-00:00</GatewayTimestamp>
+    </MessageDetails>
+    <SenderDetails>
+      <IDAuthentication>
+        <SenderID>????????????????????????????????</SenderID>
+        <Authentication>
+          <Method>CHMD5</Method>
+          <Value>????????????????????????????????</Value>
+        </Authentication>
+      </IDAuthentication>
+    </SenderDetails>
+  </Header>
+  <GovTalkDetails>
+    <Keys/>
+  </GovTalkDetails>
+  <Body>
+    <OfficerDetails xmlns="http://xmlgw.companieshouse.gov.uk/v1-0/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlgw.companieshouse.gov.uk/v1-0/schema http://xmlgw.companieshouse.gov.uk/v1-0/schema/OfficerDetails.xsd">
+   <SearchRows>2</SearchRows>
+   <Person>
+      <Forename>RICHARD</Forename>
+      <Forename>ARTHUR</Forename>
+      <Forename>BRYAN</Forename>
+      <Surname>SMITH</Surname>
+      <Title></Title>
+      <Honours></Honours>
+      <DOB>1924-07-31</DOB>
+      <Nationality>BRITISH</Nationality>
+      <PersonAddress>
+	<AddressLine>162 ELM WALK</AddressLine>
+	<AddressLine>RAYNES PARK</AddressLine>
+        <PostTown>LONDON</PostTown>
+        <Postcode>SW20 9EG</Postcode>
+      </PersonAddress>
+      <PersonID>NLKJLupEPc9YiJa9zq28VxdpmqdHogpEfL0X5vIQrCak3vg1ro9SGfgqrwwVXCacKq6kylZZvTWNqdMUjsAhhQGfH7ktyzsW9yDOxBbYyIFSuPpbn510buhrbbfNccDEXLnMsfNk/pmp6yg==</PersonID>
+    </Person>
+  <ApptCount>
+    <NumCurrentAppt>0</NumCurrentAppt>
+    <NumDissolvedAppt>0</NumDissolvedAppt>
+    <NumResignedAppt>2</NumResignedAppt>
+  </ApptCount>
+  <OfficerAppt>
+    <CompanyName>TEST LIMITED</CompanyName>
+    <CompanyNumber>99999999</CompanyNumber>
+    <CompanyStatus>Active</CompanyStatus>
+    <AppointmentStatus>RESIGNED</AppointmentStatus>
+    <AppointmentType>DIR</AppointmentType>
+    <ApptDatePrefix>PRE--</ApptDatePrefix>
+    <AppointmentDate>1991-08-22</AppointmentDate>
+    <ResignationDate>1998-03-02</ResignationDate>
+    <Occupation>RETIRED GENTLEMAN</Occupation>
+  </OfficerAppt>
+  <OfficerAppt>
+    <CompanyName>TEST LIMITED</CompanyName>
+    <CompanyNumber>99999999</CompanyNumber>
+    <CompanyStatus>Active</CompanyStatus>
+    <AppointmentStatus>RESIGNED</AppointmentStatus>
+    <AppointmentType>DIR</AppointmentType>
+    <ApptDatePrefix>PRE--</ApptDatePrefix>
+    <AppointmentDate>1991-08-22</AppointmentDate>
+    <ResignationDate>1998-03-02</ResignationDate>
+    <Occupation>RETIRED GENTLEMAN</Occupation>
+  </OfficerAppt>
+</OfficerDetails>
+  </Body>
+</GovTalkMessage>
+

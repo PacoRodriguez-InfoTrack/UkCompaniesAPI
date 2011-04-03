@@ -1,0 +1,75 @@
+<GovTalkMessage xsi:schemaLocation="http://www.govtalk.gov.uk/CM/envelope http://xmlgw.companieshouse.gov.uk/v1-0/schema/Egov_ch-v2-0.xsd" xmlns="http://www.govtalk.gov.uk/CM/envelope" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:gt="http://www.govtalk.gov.uk/schemas/govtalk/core" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+  <EnvelopeVersion>1.0</EnvelopeVersion>
+  <Header>
+    <MessageDetails>
+      <Class>CompanyDetails</Class>
+      <Qualifier>response</Qualifier>
+      <TransactionID>1</TransactionID>
+      <GatewayTimestamp>2009-03-13T14:14:04-00:00</GatewayTimestamp>
+    </MessageDetails>
+    <SenderDetails>
+      <IDAuthentication>
+        <SenderID>????????????????????????????????</SenderID>
+        <Authentication>
+          <Method>CHMD5</Method>
+          <Value></Value>
+        </Authentication>
+      </IDAuthentication>
+    </SenderDetails>
+  </Header>
+  <GovTalkDetails>
+    <Keys/>
+  </GovTalkDetails>
+  <Body>
+    <CompanyDetails xmlns="http://xmlgw.companieshouse.gov.uk/v1-0/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlgw.companieshouse.gov.uk/v1-0/schema http://xmlgw.companieshouse.gov.uk/v1-0/schema/CompanyDetails.xsd">
+	<CompanyName>TEST COMPANY LIMITED</CompanyName>
+	<CompanyNumber>99999999</CompanyNumber>
+	<RegAddress>
+		<AddressLine>HARTHAM PARK</AddressLine>
+		<AddressLine>HARTHAM</AddressLine>
+		<AddressLine>CORSHAM</AddressLine>
+		<AddressLine>WILTSHIRE</AddressLine>
+		<AddressLine>SN15 0RP</AddressLine>
+	</RegAddress>
+	<CompanyCategory>Private Limited Company</CompanyCategory>
+	<CompanyStatus>Active</CompanyStatus>
+	<CountryOfOrigin>United Kingdom</CountryOfOrigin>
+	<RegDateType>0</RegDateType>
+	<IncorporationDate>2007-03-23</IncorporationDate>
+	    <PreviousNames>
+		<CONDate>2008-04-18</CONDate>
+		<CompanyName>TEST HOUSING CENTRES LIMITED</CompanyName>
+	</PreviousNames>
+	    <PreviousNames>
+		<CONDate>2008-04-10</CONDate>
+		<CompanyName>TEST MANAGED SERVICES LIMITED</CompanyName>
+	</PreviousNames>
+	    <PreviousNames>
+		<CONDate>2007-12-12</CONDate>
+		<CompanyName>TEST 2 LIMITED</CompanyName>
+	</PreviousNames>
+	<Accounts>
+		<AccountRefDate>31-12</AccountRefDate>
+		<NextDueDate>2009-10-31</NextDueDate>
+		<Overdue>NO</Overdue>
+		<LastMadeUpDate>2007-12-31</LastMadeUpDate>
+		<AccountCategory>SMALL</AccountCategory>
+		<DocumentAvailable>1</DocumentAvailable>
+	</Accounts>
+	<Returns>
+		<NextDueDate>2009-04-20</NextDueDate>
+		<Overdue>NO</Overdue>
+		<LastMadeUpDate>2008-03-23</LastMadeUpDate>
+		<DocumentAvailable>1</DocumentAvailable>
+	</Returns>
+	<SICCodes>
+        	<SicText>7260 - Other computer related activities</SicText>
+	</SICCodes>
+	<LastFullMemDate>2008-03-23</LastFullMemDate>
+	<HasBranchInfo>0</HasBranchInfo>
+	<HasAppointments>1</HasAppointments>
+	<InLiquidation>0</InLiquidation>
+</CompanyDetails>
+  </Body>
+</GovTalkMessage>
+

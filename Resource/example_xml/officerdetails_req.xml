@@ -1,0 +1,33 @@
+<GovTalkMessage xsi:schemaLocation="http://www.govtalk.gov.uk/CM/envelope http://xmlgw.companieshouse.gov.uk/v1-0/schema/Egov_ch-v2-0.xsd" xmlns="http://www.govtalk.gov.uk/CM/envelope" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:gt="http://www.govtalk.gov.uk/schemas/govtalk/core" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+  <EnvelopeVersion>1.0</EnvelopeVersion>
+  <Header>
+    <MessageDetails>
+      <Class>OfficerDetails</Class>
+      <Qualifier>request</Qualifier>
+      <TransactionID>51</TransactionID>
+    </MessageDetails>
+    <SenderDetails>
+      <IDAuthentication>
+        <SenderID>????????????????????????????????</SenderID>
+        <Authentication>
+          <Method>CHMD5</Method>
+          <Value>????????????????????????????????</Value>
+        </Authentication>
+      </IDAuthentication>
+   </SenderDetails>
+  </Header>
+  <GovTalkDetails>
+    <Keys/>
+ </GovTalkDetails>
+  <Body>
+   
+<OfficerDetailsRequest xmlns="http://xmlgw.companieshouse.gov.uk/v1-0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://xmlgw.companieshouse.gov.uk/v1-0/schema/OfficerDetails.xsd">
+
+<PersonID>sJdW5Zku9az3YPGyEFNFM+k0sFtFgp2ipF/L2XDdi/Ne997k2kLh7+uTX7Rken9Ps3ueJqgrXtt7Pc+/Syfbndp9pA3cMJpPtUwkFd+JMmBRRO4nwaUCzwrbVxjVYeZfDf19TkNLKJLupEPc9YiJa9zq28VxdpmqdHogpEf90X5vIQrCak3vg1ro9SG9gqrwwVXCacKq6kylZZvTWNqd9UjsAhhQGfH7ktyzsW9yDOxBbYyIFSuPpbn510buhrbb9NccDEXLnMsfNk/pm96yg==</PersonID>
+
+<UserReference>F9 Testing</UserReference> 
+</OfficerDetailsRequest>
+
+  
+  </Body>
+</GovTalkMessage>

@@ -1,0 +1,84 @@
+<GovTalkMessage xsi:schemaLocation="http://www.govtalk.gov.uk/CM/envelope http://xmlgw.companieshouse.gov.uk/v1-0/schema/Egov_ch-v2-0.xsd" xmlns="http://www.govtalk.gov.uk/CM/envelope" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:gt="http://www.govtalk.gov.uk/schemas/govtalk/core" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+  <EnvelopeVersion>1.0</EnvelopeVersion>
+  <Header>
+    <MessageDetails>
+      <Class>OfficerSearch</Class>
+      <Qualifier>response</Qualifier>
+      <TransactionID>51</TransactionID>
+      <GatewayTimestamp>2009-03-13T14:35:11-00:00</GatewayTimestamp>
+    </MessageDetails>
+    <SenderDetails>
+      <IDAuthentication>
+        <SenderID>????????????????????????????????</SenderID>
+        <Authentication>
+          <Method>CHMD5</Method>
+          <Value></Value>
+        </Authentication>
+      </IDAuthentication>
+    </SenderDetails>
+  </Header>
+  <GovTalkDetails>
+    <Keys/>
+  </GovTalkDetails>
+  <Body>
+    <OfficerSearch xmlns="http://xmlgw.companieshouse.gov.uk/v1-0/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlgw.companieshouse.gov.uk/v1-0/schema http://xmlgw.companieshouse.gov.uk/v1-0/schema/OfficerSearch.xsd">
+  <ContinuationKey>6e9a69eJxjZRN24mgEIVYgBFJcPAZIwEkczDU0NTM2tTACcj2c83MLEvMyU4s98kuLU62s/NPSMpNTi4JTE4uSM6ys8pG5Hol5KTmpRUn55al58fEGuigmA+1iYmBgYESzkIvBiaMB6BQgzeokzhkS5OrhGBTkGQzisYJNchJndg4NarJCd0mEr497OFEOokCrCMjJQAxyOjMQswAxKxCzATE7EHMAMScQc0HV8QAxLxDzATE/EAsAsSAQCwGxMBCLAADR6Vt9</ContinuationKey>
+  <SearchRows>30</SearchRows>
+  <OfficerSearchItem>
+    <Title></Title>
+    <Surname>ARTHUR</Surname>
+    <Forename>DOROTHY MAY</Forename>
+    <DOB>1931-04-19</DOB>
+    <PostTown>TREHARRIS</PostTown>
+    <PostCode>CF46 </PostCode>
+    <PersonID>CSeJxNkEELgjAUx+99CvFeTgktWIsgog4hiB06iblnjXLaNiO/fZvL8jJ+7/d/e48Nr9/Vw3mBkKzmK9efIdcBXtSU8evKPaW76cJ11mSC79DpM28aqXLVSuJj718Yr7oGSC8tUSZKnlfgazniAYORDqyuBZiKbOMkTvdn57g5254hMF2yFT1vknR/Svp8UCZWTD3Ajv4iZfJ54JQgIy3iewZZl7GMkrgsWQHisMXeX+IGBG+rC0HIX0QBQvMQe4PDEnJR3FL73HEhR9fCKFxGc73zJ/UC/YUf3Kp/sQ==</PersonID>
+  </OfficerSearchItem>
+  <OfficerSearchItem>
+    <Title></Title>
+    <Surname>BAKER</Surname>
+    <Forename>ALUN</Forename>
+    <DOB>1961-05-21</DOB>
+    <PostTown>TREHARRIS</PostTown>
+    <PostCode>CF46 </PostCode>
+    <PersonID>CSeJxNkFGrgjAYhu/7FeJ9uY0ig7koKogOHTjUtZj7rFFO22Yc/33OZXoznvd5932w0eV//vBeoLQoZOTjCfI9kGnBhbxG/vm0G4e+t2Qjeoe6OZOy1CYxlWaYBn2w3tQlsFY64kJlMskBN3LAHZKBJk4XCmxiq5/z0ZWdsbWuVMvr1WH719adsa0R5gFu5Qe50M+95AxZ6ZDeY4jrWMSc/WaZSEHtNzToJS1BySq/MIRQSNAUz2c06BzVkKj0dnLPHAbdj2GCwgUi8+bCdy6wX/cGNAp9NA==</PersonID>
+  </OfficerSearchItem>
+  <OfficerSearchItem>
+    <Title></Title>
+    <Surname>BAKER</Surname>
+    <Forename>JANE</Forename>
+    <DOB></DOB>
+    <PostTown>TREHARRIS</PostTown>
+    <PostCode>CF46 </PostCode>
+    <PersonID>CSeJxNkF0LgjAUhu/7FeJ9Oe0b1sSooIKCsGsxd6xRTttm5L/PuSxvxvM+786BDfvv7GG9QEiW84XtDpBtAU9yyvh1YZ/DTX9mWz7p4TtU9RkXhVSxKiVxsfMP2quqANJIQ5SJlMcZuLXscIteR3tG5wJ0IrvgsDZla3QtS9HwMtivT03dGt0qph5gVn6RMvncckqQlgbxPYKoilhEyTFNWQJiu8LOX+ICBC+zC0EIzadoiub1cOuwhFgkt9A8sxtkd2w2Go69SX3hN+for/sAJ659Lw==</PersonID>
+  </OfficerSearchItem>
+  <OfficerSearchItem>
+    <Title></Title>
+    <Surname>BAKER</Surname>
+    <Forename>MARK</Forename>
+    <DOB>1960-03-01</DOB>
+    <PostTown>TREHARRIS</PostTown>
+    <PostCode>CF46 </PostCode>
+    <PersonID>CSeJxNkF0LgjAUhu/7FeJ9udk3zEVRQUQEUddi7lijnLbNyH+fc5nejOd93p0DG1l80qfzBql4JgIXD5DrgIgzxsUtcC/nbX/mOgvaIw8oqzPKc6UjXSiKidcG43WZA62lJcZlIqIUcCU73KDf0b7VmQST6GF52tuyMaZWhax5tdxvTnXdGNNqrp9gV/6QcfXaCUaRkRbJI4SwDHnI6DFJeAxytyZeK0kOUhTplSKE8QSNhvMx8RpHFEQyvp/tM7tBtWNo4vvz2WhaXfjPeebrvjFAfTo=</PersonID>
+  </OfficerSearchItem>
+  <OfficerSearchItem>
+    <Title></Title>
+    <Surname>BAKER</Surname>
+    <Forename>TERENCE</Forename>
+    <DOB></DOB>
+    <PostTown>TREHARRIS</PostTown>
+    <PostCode>CF46 </PostCode>
+    <PersonID>CSeJxNkEuPwiAYRff+iqZ7LeAjLhDjoyZmEicxdd10yteRaGkFOrH/fqBY7Yacey7wBej6Wd6DP1BaVHIV4gkKA5B5xYX8XYWX5DBehsGajegNWrtmda1NZhrNMI0+wXnT1sA66YkLVcisBGzlgHskA028rhS4xJL4HJ92se976XboRnW83XzF567ujWuNMHfwt76QC/04Ss6Qkx7pLYW0TUXK2XdRiBzUcU+jj6Q1KNmUPwwhjJaYYLSgUe+ohkzl18S/dBj04BiZLeZkame+pR1gf+8ffg99/A==</PersonID>
+  </OfficerSearchItem>
+  <OfficerSearchItem>
+    <Title></Title>
+    <Surname>BAKER</Surname>
+    <Forename>WAYNE</Forename>
+    <DOB>1963-11-14</DOB>
+    <PostTown>TREHARRIS</PostTown>
+    <PostCode>CF46 </PostCode>
+    <PersonID>CSeJxNkFHLgjAUhu/7FeJ9uUl9erEWRQXxQUEU0ZWYO9Yop20z8t/nXKY343mfd+fARmbv7OG8QCqei6mLR8h1QCQ54+I6dY+H9TB0nRkdkDtU9RkXhdKxLhXFxOuC8boqgDbSEuMyFXEGuJY9btHvad/qXIJJ9DQ/b1e2bZXpVSkbXsz/V/umbo1pNdcPsDu/yLh6bgSjyEiL5B5BVEU8YnSXpjwBuVkSr5OkACnK7EIRQsF4jPy/CfFaRxTEMrkd7Dv7QXVjGAcoCFFYX/jNeebvPq2+fYw=</PersonID>
+  </OfficerSearchItem>
+ </OfficerSearch>
+  </Body>
+</GovTalkMessage>
+

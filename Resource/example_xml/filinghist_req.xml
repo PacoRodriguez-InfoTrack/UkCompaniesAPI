@@ -1,0 +1,28 @@
+<GovTalkMessage xsi:schemaLocation="http://www.govtalk.gov.uk/CM/envelope http://xmlgw.companieshouse.gov.uk/v1-0/schema/Egov_ch-v2-0.xsd" xmlns="http://www.govtalk.gov.uk/CM/envelope" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:gt="http://www.govtalk.gov.uk/schemas/govtalk/core" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+  <EnvelopeVersion>1.0</EnvelopeVersion>
+  <Header>
+    <MessageDetails>
+      <Class>FilingHistory</Class>
+      <Qualifier>request</Qualifier>
+      <TransactionID>1</TransactionID>
+      </MessageDetails>
+    <SenderDetails>
+      <IDAuthentication>
+        <SenderID>????????????????????????????????</SenderID>
+        <Authentication>
+          <Method>CHMD5</Method>
+	 <Value>????????????????????????????????</Value>
+        </Authentication>
+      </IDAuthentication>
+     </SenderDetails>
+  </Header>
+  <GovTalkDetails>
+    <Keys/>
+ </GovTalkDetails>
+  <Body>
+<FilingHistoryRequest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://xmlgw.companieshouse.gov.uk/v1-0/schema/FilingHistory.xsd">
+<CompanyNumber>99999999</CompanyNumber>
+	<CapitalDocInd>1</CapitalDocInd>
+</FilingHistoryRequest>
+  </Body>
+</GovTalkMessage>
