@@ -44,9 +44,14 @@
     <Compile Include="Enum\AppointmentType.cs" />
     <Compile Include="Enum\ApptDatePrefix.cs" />
     <Compile Include="Enum\ChargeSatisfied.cs" />
+    <Compile Include="Helpers\Nullable.cs" />
+    <Compile Include="Helpers\NullableCompanyIndexStatus.cs" />
+    <Compile Include="Helpers\NullableDateTime.cs" />
+    <Compile Include="Helpers\EnumHelper.cs" />
+    <Compile Include="Helpers\NullableSearchMatch.cs" />
     <Compile Include="Model\OfficerSearchItem.cs" />
     <Compile Include="Enum\CompanyIndexStatus.cs" />
-    <Compile Include="Model\CoSearchCPLXType.cs" />
+    <Compile Include="Model\SearchResult.cs" />
     <Compile Include="Enum\DataSet.cs" />
     <Compile Include="Model\DocumentInfo.cs" />
     <Compile Include="Enum\Media.cs" />

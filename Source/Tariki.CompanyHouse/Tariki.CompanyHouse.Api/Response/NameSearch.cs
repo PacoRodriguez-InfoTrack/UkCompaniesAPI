@@ -7,11 +7,12 @@ namespace Tariki.CompanyHouse.Api.Model
     {
         public NameSearch()
         {
-            CoSearchItem = new List<CoSearchCPLXType>();
+            Results = new List<SearchResult>();
         }
         public string ContinuationKey { get; set; }
         public string RegressionKey { get; set; }
-        public string SearchRows { get; set; }
-        public List<CoSearchCPLXType> CoSearchItem { get; set; }
+        public int SearchRows { get; set; }
+        [XmlElement("CoSearchItem")]
+        public List<SearchResult> Results { get; set; }
     }
 }

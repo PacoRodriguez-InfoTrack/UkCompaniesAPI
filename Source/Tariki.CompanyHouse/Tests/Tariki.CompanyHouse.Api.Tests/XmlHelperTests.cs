@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using NUnit.Framework;
+using Tariki.CompanyHouse.Api.Helpers;
 using Tariki.CompanyHouse.Api.Model;
 using System.Linq;
 using Tariki.CompanyHouse.Api.Response;
@@ -10,6 +11,8 @@ namespace Tariki.CompanyHouse.Api.Tests
     [TestFixture]
     public class XmlHelperTests
     {
+        
+
         [Test]
         public void Deseralise_LoadCompanyDocumentFromXml()
         {
@@ -20,41 +23,48 @@ namespace Tariki.CompanyHouse.Api.Tests
         }
 
         [Test]
-        public void Seralise_LoadCompanyDocumentFromXml()
-        {
-            string expected = "<?xml version=\"1.0\"?>\r\n<Document xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns=\"http://xmlgw.companieshouse.gov.uk/v1-0/schema\">\r\n  <CompanyNumber>CAD432</CompanyNumber>\r\n  <FormType>form_0</FormType>\r\n  <NumPages>6</NumPages>\r\n</Document>";
-            Document document = new Document { CompanyNumber = "CAD432", FormType = "form_0", NumPages = 6 };
-            string xml = XmlHelper<Document>.Serialize(document);
-            Assert.AreEqual(expected, xml);
-        }
-        [Test]
         public void Deseralise_NumberSearch()
         {
             NumberSearch numberSearch = XmlHelper<NumberSearch>.Deserialize(ModelXml.TestPayloadXml.NumberSearch);
             Assert.AreEqual(1, numberSearch.SearchRows);
             Assert.AreEqual(1, numberSearch.SearchItems.Count);
             var item = numberSearch.SearchItems.First();
-            Assert.AreEqual(item.CompanyIndexStatus, CompanyIndexStatus.EFFECTIVE);
+            Assert.AreEqual(item.CompanyIndexStatus.Value, CompanyIndexStatus.EFFECTIVE);
         }
 
 
         [Test]
-        public void Seralise_NumberSearch()
+        public void Deseralise_NameSearch()
         {
-            var expected =
-                "<?xml version=\"1.0\"?>\r\n<NumberSearch xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns=\"http://xmlgw.companieshouse.gov.uk/v1-0/schema\">\r\n  <SearchRows>0</SearchRows>\r\n  <CoSearchItem>\r\n    <CompanyName>Tree Huggers Ltd</CompanyName>\r\n    <DataSet>LIVE</DataSet>\r\n    <CompanyDate>2009-11-01T00:00:00</CompanyDate>\r\n    <CompanyIndexStatus xsi:nil=\"true\" />\r\n    <SearchMatch xsi:nil=\"true\" />\r\n  </CoSearchItem>\r\n</NumberSearch>";
-
-            NumberSearch numberSearch = new NumberSearch()
-                                        {
-                                            SearchItems = new List<CoSearchCPLXType>
-                                                               {
-                                                                   new CoSearchCPLXType()
-                                                                       {CompanyDate = new DateTime(2009, 11, 01),CompanyName = "Tree Huggers Ltd"}}
-                                        };
-            string xml = XmlHelper<NumberSearch>.Serialize(numberSearch);
-            Assert.AreEqual(expected, xml);
-
+            NameSearch numberSearch = XmlHelper<NameSearch>.Deserialize(ModelXml.TestPayloadXml.NameSearch);
+            Assert.AreEqual(100, numberSearch.SearchRows);
+            Assert.AreEqual(100, numberSearch.Results.Count);
         }
+
+        [Test]
+        public void Deseralise_NameSearch_100ResultsReturned()
+        {
+            var results = XmlHelper<NameSearch>.Deserialize(ModelXml.TestPayloadXml.NameSearch).Results;
+            Assert.AreEqual(100, results.Count);
+        }
+
+        [Test]
+        public void Deseralise_NameSearch_FirstResultComplete()
+        {
+            DateTime dateTime = new DateTime(2009,11,01);
+            const string name = "TESQUIRE LIMITED";
+            const string number = "06114228";
+            
+            SearchResult result = XmlHelper<NameSearch>.Deserialize(ModelXml.TestPayloadXml.NameSearch).Results.First();
+
+            Assert.AreEqual(dateTime,result.CompanyDate.Value);
+            Assert.AreEqual(name,result.CompanyName);
+            Assert.AreEqual(number,result.CompanyNumber);
+            Assert.AreEqual(CompanyIndexStatus.DISSOLVED,result.CompanyIndexStatus.Value);
+            Assert.AreEqual(DataSet.LIVE,result.DataSet);
+            Assert.AreEqual(SearchMatch.NEAR,result.SearchMatch.Value);
+        }
+
 
 
     }
