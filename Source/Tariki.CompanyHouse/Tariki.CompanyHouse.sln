@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tariki.CompanyHouse.Api", "Tariki.CompanyHouse.Api\Tariki.CompanyHouse.Api.csproj", "{16043B0B-7766-4988-8130-DD01E5C34166}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{F511BCC2-60D1-48EB-928B-C5B0C3304777}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tariki.CompanyHouse.Api.Tests", "Tests\Tariki.CompanyHouse.Api.Tests\Tariki.CompanyHouse.Api.Tests.csproj", "{E31EBB92-1BAE-42B7-9906-DB36E0DD93DA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{16043B0B-7766-4988-8130-DD01E5C34166}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16043B0B-7766-4988-8130-DD01E5C34166}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16043B0B-7766-4988-8130-DD01E5C34166}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16043B0B-7766-4988-8130-DD01E5C34166}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E31EBB92-1BAE-42B7-9906-DB36E0DD93DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E31EBB92-1BAE-42B7-9906-DB36E0DD93DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E31EBB92-1BAE-42B7-9906-DB36E0DD93DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E31EBB92-1BAE-42B7-9906-DB36E0DD93DA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E31EBB92-1BAE-42B7-9906-DB36E0DD93DA} = {F511BCC2-60D1-48EB-928B-C5B0C3304777}
+	EndGlobalSection
+EndGlobal
